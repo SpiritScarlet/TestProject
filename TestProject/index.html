@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TestProject</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="mystyle.css" rel="stylesheet" type="text/css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <script src="//code.jquery.com/jquery-1.12.4.js"></script>
+
+    <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="Scripts/myscript.js" type="text/javascript"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="/resources/demos/style.css">
+
+
+</head>
+<body>
+
+<div id="section"> <!-- navigation bar -->
+        <div class="navbar" id="nav">
+            <img src="Images/Logo.png">
+            <a href="#section-8">Contact</a>
+            <a href="#section-6">Reviews</a>
+            <a href="#section-5">Pricing</a>
+            <a href="#section-4">About</a>
+            <a href="#section-3">Features</a>
+            <a href="javascript:void(0);" class="icon" id="navClick">MENU &#9776;</a>
+    </div>
+</div>
+
+<div id="section-1"> <!-- first -->
+
+    <div class="row">
+        <div class="col-6   first">
+            <h1 class="h1-header">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1><br>
+            <hr class="hr-1"><br><br>
+            <p class="header-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+                euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+                accumsan et viverra justo commodo.
+            </p>
+            <br>
+            <button class="btn-First" id="btn-First" onclick="Clicked()">Download</button>
+            <div id="dialog" title="Popup">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            </div>
+        </div>
+
+        <div class="col-6">
+
+            <table >
+                <tr class="table-header">
+                    <td>Try Your <span>FREE</span> Trial Today</td>
+                </tr>
+                <tr>
+                    <td class="td prvo"><input class="input" type="text" value="Name"></td>
+                </tr>
+                <tr>
+                    <td class="td"><input class="input" type="text" value="Email"></td>
+                </tr>
+                <tr>
+                    <td class="td"><input class="input" type="text" value="Password"></td>
+                </tr>
+                <tr class="table-footer"><td>
+                    Get started</td>
+                </tr>
+            </table>
+
+        </div>
+    </div>
+
+</div>
+<div id="section-2"> <!-- social media -->
+
+    <div class="row">
+        <div class="col-5">
+            <h3>Social media</h3>
+            <p class="socialmedia">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Aenean euismod bibendum laoreet.</p>
+        </div>
+        <div class="col-7 Social">
+            <a href="#"><i class="fa fa-facebook "  aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-twitter"  aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-google-plus"  aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-pinterest "  aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-instagram"  aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-stumbleupon"  aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-rss"  aria-hidden="true"></i></a>
+        </div>
+    </div>
+
+</div>
+<div id="section-3"> <!-- tabs -->
+
+    <div class="row">
+        <div class="col-2">
+
+            <table class="tab">
+                <tr >
+                    <td id="tab1" class="active" onclick="Tab1()">TAB 1</td>
+                </tr>
+                <tr>
+                    <td id="tab2" onclick="Tab2()">TAB 2</td>
+                </tr>
+                <tr>
+                    <td id="tab3" onclick="Tab3()">TAB 3</td>
+                </tr>
+            </table>
+
+        </div>
+        <div class="col-10">
+            <div id="tab-1">
+            <div class="col-6">
+                <h3>Tabs with soft transitioning effect.</h3><br>
+                <br><br>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                    bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                    justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                    penatibus et magnis dis parturient montes.
+                    <br><br>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                    bibendum laoreet.
+                </p><br><br>
+                <button class="btn-D">Download</button>
+            </div>
+            <div class="col-4">
+                <img src="Images/tab1.png" class="img">
+            </div>
+        </div>
+        <div id="tab-2">
+
+            <div class="col-6">
+                <img src="Images/tab2.png" class="img">
+            </div>
+            <div class="col-5">
+                <h3>Sub list section</h3><br>
+                <hr class="hr-tab">
+                <br><br>
+                <p class="t2">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                    bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                    justo commodo.
+                    <br><br>
+
+                    <i class="fa fa-cloud-upload border"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                bibendum laoreet. <br><br><br>
+                    <i class="fa fa-cloud-download border"></i> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                    bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                    justo commodo. <br>
+
+
+                </p>
+            </div>
+        </div>
+            <div id="tab-3">
+
+                <div class="col-6">
+                    <h3>Standard Picture Section</h3><br>
+                    <hr class="hr-tab">
+                    <br><br>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                        bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra
+                        justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque
+                        penatibus et magnis dis parturient montes.
+                        <br><br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod
+                        bibendum laoreet.
+                    </p><br><br>
+                    <button class="btn-D">Download</button>
+                </div>
+
+                <div class="col-4">
+                    <img src="Images/tab3.png" class="img">
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+</div>
+<div id="section-4"> <!-- why this is awesome -->
+
+    <div class="row">
+        <h1 class="header-rail">WHY THIS IS AWESOME</h1>
+        <hr>
+        <p class="p-s4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <span class="border1">
+                <i class="fa fa-lightbulb-o fa-2x"></i>
+            </span><br>
+            <h3>Thoughtful design</h3>
+            <p class="p-s4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit. Aenean euismod bibendum laoreet. Proin gravida
+                dolor sit amet lacus accumsan et viverra.
+            </p>
+        </div>
+        <div class="col-4">
+            <span class="border">
+                <i class="fa fa-keyboard-o fa-2x"></i>
+            </span><br>
+            <h3>Well crafted</h3>
+            <p class="p-s4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit. Aenean euismod bibendum laoreet. Proin gravida
+                dolor sit amet lacus accumsan et viverra.
+            </p>
+        </div>
+        <div class="col-4">
+            <span class="border1">
+                <i class="fa fa-bolt fa-2x" aria-hidden="true"></i>
+            </span><br>
+            <h3>Easy to customize</h3>
+            <p class="p-s4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing
+                elit. Aenean euismod bibendum laoreet. Proin gravida
+                dolor sit amet lacus accumsan et viverra.
+            </p>
+        </div>
+    </div>
+
+</div>
+<div id="section-5"> <!-- pricing options -->
+
+    <div class="row">
+        <h1 class="header-rail">PRICING OPTIONS</h1>
+        <hr>
+        <p class="p-s4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="row">
+        <div class="col-4">
+            <table class="table-basic">
+                <tr class="black"><th>Basic</th></tr>
+                <tr class="black"><td class=" bigger"><sub>$</sub>0</td></tr>
+                <tr class="black"><td class="third">Free for life</td></tr>
+                <tr><td>1 GB OF SPACE</td></tr>
+                <tr><td>10 GB OF BANDWITH</td></tr>
+                <tr><td>3 WEBSITES</td></tr>
+                <tr><td>BASIC CUSTOMIZATION</td></tr>
+                <tr><td>WORDRESS INTEGRATION</td></tr>
+                <tr><td>EMAIL SUPPORT</td></tr>
+
+            </table>
+        </div>
+        <div class="col-4">
+            <table class="table-professional">
+                <tr class="black"><th>Professional</th></tr>
+                <tr class="black"><td class=" bigger"><sub>$</sub>19</td></tr>
+                <tr class="black"><td class="third">Monthly Payment</td></tr>
+                <tr class="orange"><td>OUR MOST POPULAR</td></tr>
+                <tr><td>5 GB OF SPACE</td></tr>
+                <tr><td>50 GB OF BANDWITH</td></tr>
+                <tr><td>12 WEBSITES</td></tr>
+                <tr><td>ADVANCED CUSTOMIZATION</td></tr>
+                <tr><td>WORDRESS INTEGRATION</td></tr>
+                <tr><td>EMAIL SUPPORT</td></tr>
+
+            </table>
+        </div>
+        <div class="col-4">
+            <table class="table-enterprise">
+                <tr class="black"><th>Enterprise</th></tr>
+                <tr class="black"><td class=" bigger"><sub>$</sub>70</td></tr>
+                <tr class="black"><td class="third">Monthly Payment</td></tr>
+                <tr><td>UNLIMITED SPACE</td></tr>
+                <tr><td>UNLIMITED BANDWIDTH</td></tr>
+                <tr><td>100 WEBSITES</td></tr>
+                <tr><td>ADVANCE CUSTOMIZATION</td></tr>
+                <tr><td>WORDRESS INTEGRATION</td></tr>
+                <tr><td>24/7 SUPPORT</td></tr>
+
+            </table>
+        </div>
+    </div>
+
+</div>
+<div id="section-6"><!-- testimonials -->
+
+    <div class="row">
+        <h1 class="header-rail">WHAT OUR CUSTOMERS ARE SAYING</h1>
+        <hr>
+        <p class="p-s4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="row">
+        <div class="col-3" id="left">
+            <i class="fa fa-chevron-left fa-1x"></i>
+        </div>
+        <div class="col-6" id="test1">
+                <div class="col-6 left">
+                    <div class="testimonial">
+                        <blockquote>Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. Doloribus
+                            accusamus expedita repellat similique
+                            odio aspernatur ex, architecto eaque
+                            quo suscipit.
+                        </blockquote>
+                        <div></div>
+                        <img src="Images/user1.png" style="float: left; padding-right:25px; padding-left:20px;">
+                        <p style="float:right; font-family: 'Open Sans', sans-serif;">
+                            <h3>John S.</h3> <span style="font-size: 13px; color: #a9aaac;">Freelancer</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 right">
+                    <div class="testimonial">
+                        <blockquote>Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. Doloribus
+                            accusamus expedita repellat similique
+                            odio aspernatur ex, architecto eaque
+                            quo suscipit.
+                        </blockquote>
+                        <div></div>
+                        <img src="Images/user1.png" style="float: left; padding-right:25px; padding-left:20px;">
+                        <p style="float:right; font-family: 'Open Sans', sans-serif;">
+                        <h3>Susan W.</h3> <span style="font-size: 13px; color: #a9aaac;">Photographer</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        <div class="col-6" id="test2">
+                <div class="col-6 left">
+                    <div class="testimonial">
+                        <blockquote>Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. Doloribus
+                            accusamus expedita repellat similique
+                            odio aspernatur ex, architecto eaque
+                            quo suscipit.
+                        </blockquote>
+                        <div></div>
+                        <img src="Images/user1.png" style="float: left; padding-right:25px; padding-left:20px;">
+                        <p style="float:right; font-family: 'Open Sans', sans-serif;">
+                        <h3>Tony M.</h3> <span style="font-size: 13px; color: #a9aaac;">Doctor</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-6 right">
+                    <div class="testimonial">
+                        <blockquote>Lorem ipsum dolor sit amet,
+                            consectetur adipisicing elit. Doloribus
+                            accusamus expedita repellat similique
+                            odio aspernatur ex, architecto eaque
+                            quo suscipit.
+                        </blockquote>
+                        <div></div>
+                        <img src="Images/user1.png" style="float: left; padding-right:25px; padding-left:20px;">
+                        <p style="float:right; font-family: 'Open Sans', sans-serif;">
+                        <h3>Maria S.</h3> <span style="font-size: 13px; color: #a9aaac;">Actor</span>
+                        </p>
+                    </div>
+                </div>
+            </div></div>
+
+            <div class="col-3" id="right">
+             <i class="fa fa-chevron-right fa-1x"></i>
+        </div>
+        </div>
+<div id="section-7"> <!-- stylish axure design -->
+
+    <div class="row">
+        <h1>STYLISH AXURE DESIGNS</h1>
+        <hr class="hr-7">
+        <p>Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
+        <button class="btn-Down">Download</button>
+    </div>
+</div>
+<div id="section-8"> <!-- contact us -->
+    <div class="row">
+        <h1 class="header-rail">CONTACT US</h1>
+        <hr>
+        <p class="p-s4">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+    <div class="row content">
+        <div class="col-6">
+            <input class="input" type="text" value="Name">
+            <input class="input" type="text" value="Email">
+            <input class="input" type="text" value="Subject">
+        </div>
+        <div class="col-6">
+            <textarea class="input" rows="9" cols="50" value="Message">Message</textarea>
+        </div>
+    </div>
+    <div class="row">
+        <button class="send">Send Message</button>
+    </div>
+</div>
+<div id="section-9"> <!-- footer -->
+    <div class="row">
+    <div class="footer">
+
+        <i class="fa fa-facebook fa-1x" aria-hidden="true"></i>
+        <i class="fa fa-twitter fa-1x" aria-hidden="true"></i>
+        <i class="fa fa-google-plus fa-1x" aria-hidden="true"></i>
+        <i class="fa fa-pinterest fa-1x" aria-hidden="true"></i>
+        <i class="fa fa-instagram fa-1x" aria-hidden="true"></i>
+        <i class="fa fa-stumbleupon fa-1x" aria-hidden="true"></i>
+        <i class="fa fa-rss fa-1x" aria-hidden="true"></i>
+    </div>
+    </div>
+</div>
+
+
+</body>
+</html>
